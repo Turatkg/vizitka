@@ -5,7 +5,7 @@ class VisitCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal[400],
+      backgroundColor: Colors.teal[800],
       body: SafeArea(
         child: Center(
           child: Column(
