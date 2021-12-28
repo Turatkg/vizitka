@@ -12,18 +12,18 @@ class VisitCard extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               CircleAvatar(
-                radius: 40,
+                radius: 36,
                 backgroundColor: Colors.white38,
                 backgroundImage: AssetImage('assets/images/avatar.png'),
               ),
               TextWidget(
                 text: "Turat Alybaev",
-                fontFamily: 'Pacifico-Regular',
-                fontSize: 40,
+                fontFamily: 'Pacifico',
+                fontSize: 48,
                 color: Colors.white,
               ),
               TextWidget(
-                text: 'FLUTTER DEVELOPER',
+                text: 'Master DEVELOPER',
                 fontFamily: 'Pacifico',
                 fontSize: 20,
                 color: Colors.teal.shade100,
